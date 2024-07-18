@@ -1,0 +1,14 @@
+{
+  "name": "puppeteer-renderer",
+  "version": "1.0.0",
+  "description": "A simple Puppeteer-based PDF renderer",
+  "main": "render.js",
+  "scripts": {
+    "start": "node render.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
+    "puppeteer": "^22.12.1"
+  }
+}
