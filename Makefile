@@ -9,7 +9,14 @@ start:
 down:
 	docker stop pdfeteer
 
-tag:
+push-tag:
+	docker login
 	docker tag pdfeteer deselbi/pdfeteer:1.0.0
-push:
 	docker push deselbi/pdfeteer:1.0.0
+
+push-tag:
+	docker login
+	docker tag pdfeteer deselbi/pdfeteer
+	docker push deselbi/pdfeteer
+
+
