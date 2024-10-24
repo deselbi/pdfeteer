@@ -1,6 +1,7 @@
 
 
 build:
+	docker pull node:20
 	docker build -t pdfeteer .
 
 start:
